@@ -1,0 +1,78 @@
+body {
+  background-color: #f6efe4;
+  color: #4a3a2f;
+}
+
+.navbar {
+  background-color: #fffaf3 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #5b4637 !important;
+}
+
+header {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.badge {
+  background-color: #efe2c8 !important;
+  color: #6a4e33 !important;
+}
+
+.card {
+  background-color: #fffaf3;
+  border: 1px solid #e7d8b7;
+  border-radius: 1rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(74, 58, 47, 0.1) !important;
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #c98d5b;
+  border-color: #c98d5b;
+}
+
+.btn-primary:hover {
+  background-color: #b47a49;
+  border-color: #b47a49;
+}
+
+.btn-outline-primary {
+  color: #a56b45;
+  border-color: #a56b45;
+}
+
+.btn-outline-primary:hover {
+  background-color: #a56b45;
+  border-color: #a56b45;
+}
+
+.btn {
+  border-radius: 999px;
+}
+
+section#rentals {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+footer {
+  color: #7a6656 !important;
+}
